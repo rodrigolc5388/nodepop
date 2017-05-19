@@ -1,0 +1,14 @@
+{
+    "usuarios":[
+        {
+            "nombre": "Rafa",
+            "email": "rafanadal@outlook.com",
+            "contraseña": "tenista"
+        },
+        {
+            "nombre": "javier",
+            "email": "javim@gmail.com",
+            "contraseña": "matrix"
+        }
+    ]
+}
