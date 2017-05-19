@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const usuarioSchema = mongoose.Schema({
     nombre: String,
     email: String,
-    clave: String
+    contraseña: String
 });
 
 //Creo el modelo usando el esquema

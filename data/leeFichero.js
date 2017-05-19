@@ -6,7 +6,7 @@ const path = require('path');
 //Función para leer un fichero, ya sea el de anuncios o el de usuarios
 function leeFichero (fichero, callback) { 
 
-    const rutaFichero = path.join(__dirname, fichero);
+    var rutaFichero = path.join(__dirname, fichero);
 
     //Leo el fichero obtenido
     fs.readFile(rutaFichero, 'utf-8', (err, data) => {

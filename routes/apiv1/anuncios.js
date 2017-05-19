@@ -31,17 +31,4 @@ router.get('/', (req, res, next) => {
     });
 });
 
-//Función para agregar anuncios - Esto aún hay que tocarlo
-/*router.post('/', (req, res, next) => {
-
-    const anuncio = new Anuncio(req.body);
-    anuncio.save((err, anuncioGuardado) => {
-        if(err){
-            next(err);
-            return;
-        }
-        res.json({success: true, result: anuncioGuardado});
-    });
-});*/
-
 module.exports = router;
