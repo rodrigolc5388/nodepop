@@ -15,7 +15,7 @@ function leeFichero (fichero, callback) {
             return;
         }
 
-        const ficheroLeido = {};
+        var ficheroLeido = {};
         try{
             ficheroLeido = JSON.parse(data);
         } catch (err){
