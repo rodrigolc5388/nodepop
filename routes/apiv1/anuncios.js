@@ -12,15 +12,19 @@ router.get('/', (req, res, next) => {
     const tag = req.query.tag;
     const limit = parseInt(req.query.limit);
     const skip = parseInt(req.query.skip);
+    const fields = req.query.fields;
     const sort = req.query.sort;
 
     const filter = {};
 
+    if(name){
+        filter.name = name.toLowerCase();
+    }
     if(tag){
         filter.tags = tag.toLowerCase();
     }
 
-    Anuncio.list(filter, limit, skip, null, sort, (err, anuncios) => {
+    Anuncio.list(filter, limit, skip, fields, sort, (err, anuncios) => {
         if(err){
             next(err);
             return;
