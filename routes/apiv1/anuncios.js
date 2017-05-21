@@ -41,7 +41,7 @@ router.get('/', (req, res, next) => {
 });
 
 //Ruta que devuelve los tags existentes
-router.get('/tags',auth,(req,res,next)=>{
+router.get('/tags',(req,res,next)=>{
      Anuncio.listaTags((err,tagsListados)=>{
             if (err){
                 next(err);
