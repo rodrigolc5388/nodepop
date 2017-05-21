@@ -12,7 +12,7 @@ const anuncioSchema = mongoose.Schema({
     tags: [String]
 });
 
-//Método estático
+//Método estático para listar
 anuncioSchema.statics.list = function(filter, limit, skip, fields, sort, callback){
     const query = Anuncio.find(filter);
     query.limit(limit);
@@ -20,6 +20,11 @@ anuncioSchema.statics.list = function(filter, limit, skip, fields, sort, callbac
     query.select(fields);
     query.sort(sort);
     query.exec(callback);
+};
+
+//Método estático para buscar tags
+anuncioSchema.statics.listaTags = function(callback){
+    Anuncio.distinct('tags',callback);
 };
 
 //Creo el modelo usando el esquema
