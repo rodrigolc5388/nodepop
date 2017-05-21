@@ -1,6 +1,6 @@
-#Nodepop#
+#Nodepop
 
-###Resumen###
+###Resumen
 
 API para la venta de artículos de segunda mano.
 
