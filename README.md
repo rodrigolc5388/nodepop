@@ -1,6 +1,6 @@
-#Nodepop
+# Nodepop  
 
-###Resumen
+### Resumen  
 
 API para la venta de artículos de segunda mano.
 
@@ -10,12 +10,12 @@ Los anuncios están pre-cargados y el API no permite la creación de los mismos.
 
 El API utiliza MongoDB como base de datos.
 
-###Requisitos###
+### Requisitos  
 1. Node.js
 2. MongoDB
 3. Postman (recomendado)
 
-###Instalación###
+### Instalación  
 1. Descargar el proyecto:  
 	`https://github.com/rodrigolc5388/nodepop.git`
 	
@@ -28,7 +28,7 @@ El API utiliza MongoDB como base de datos.
 4. Inicialización del servidor:  
 	`npm start`
 	
-###Rutas###  
+###  Rutas  
 El API cuenta de momento con 3 rutas disponibles:
 
 1. **/apiv1/anuncios/**  
