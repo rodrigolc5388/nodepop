@@ -21,6 +21,8 @@ router.get('/', (req, res, next) => {
         res.json({success: true, tags: tagsEnDB});
         });
     }
-}
+});
+
+module.exports = router;
 
 
