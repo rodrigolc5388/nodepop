@@ -21,3 +21,5 @@ router.post('/', (req, res, next) => {
         console.log('Usuario guardado correctamente', usuarioCreado);
     });
 });
+
+module.exports = router;
