@@ -28,8 +28,7 @@ app.use('/apiv1/anuncios', require('./routes/apiv1/anuncios'));
 app.use('/apiv1/registro', require('./routes/apiv1/registro'));
 app.use('/apiv1/tags', require('./routes/apiv1/tags'));
 
-app.use('/images/anuncios',
-  express.static(path.join(__dirname, 'public/images')));
+app.use('/apiv1/images', express.static(path.join(__dirname, 'public/images')));
 
 
 // catch 404 and forward to error handler

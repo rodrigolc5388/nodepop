@@ -4,28 +4,28 @@
             "nombre": "Raqueta Babolat",
             "venta": true,
             "precio": 165,
-            "foto": "../public/images/raqueta.jpg",
+            "foto": "raqueta.jpg",
             "tags": ["lifestyle", "work"]
         },
         {
             "nombre": "Reloj Tourbillon RM 027",
             "venta": false,
             "precio": 650000,
-            "foto": "../public/images/reloj.jpg",
+            "foto": "reloj.jpg",
             "tags": ["lifestyle"]
         },
         {
             "nombre": "Kia Ceed",
             "venta": true,
             "precio": 35000,
-            "foto": "../public/images/coche.jpg",
+            "foto": "coche.jpg",
             "tags": ["lifestyle", "motor"]
         },
         {
             "nombre": "iPhone 7",
             "venta": false,
             "precio": 650,
-            "foto": "../public/images/iphone.jpg",
+            "foto": "iphone.jpg",
             "tags": ["lifestyle", "mobile"]
         }
     ]
