@@ -31,16 +31,16 @@ El API utiliza MongoDB como base de datos.
 ###  Rutas  
 El API cuenta de momento con 3 rutas disponibles:
 
-1. **/apiv1/anuncios/**  
+1. **localhost:3000/apiv1/anuncios/**  
 	Devuelve un listado de los anuncios, previamente almacenados en la 	base de datos.
 	
-2. **/apiv1/anuncios/tags**  
+2. **localhost:3000/apiv1/anuncios/tags**  
 	Devuelve un listado de los tags existentes.
 	
-3. **/apiv1/registro/**  
+3. **localhost:3000/apiv1/registro/**  
 	Permite dar de alta un nuevo usuario y almacenarlo en la base de 	datos mediante un método POST. Requiere indicar un email y una 	contraseña.
 	
-4. **/apiv1/tags/**  
+4. **localhost:3000/apiv1/tags/**  
 	Permite la búsqueda de anuncios por tags. Los tags disponibles son: 	lifestyle, work, motor, mobile. 
 	
 	
