@@ -1,5 +1,7 @@
 # Nodepop  
 
+## Práctica Node.js
+
 ### Resumen  
 
 API para la venta de artículos de segunda mano.
@@ -42,5 +44,26 @@ El API cuenta de momento con 3 rutas disponibles:
 	
 4. **localhost:3000/apiv1/tags/**  
 	Permite la búsqueda de anuncios por tags. Los tags disponibles son: 	lifestyle, work, motor, mobile. 
+	
+	
+
+## Práctica DevOps
+
+1. <https://perfectstrange.com> / <https://www.perfectstrange.com>  
+ Estas dos URLs llevan a la web estática de la práctica para el módulo de DevOps. También se puede acceder a ella mediante la siguiente dirección IP: **52.45.194.205**
+
+2. <https://nodepop.perfectstrange.com>  
+Esta URL despliega la aplicación "Nodepop" creada en el módulo de Node.js. Esta está ejecutada con **Node** y monitorizada mediante **pm2**.
+
+3. <https://nodepop.perfectstrange.com/apiv1/images/coche.jpg>  
+En este enlace se sirve un imagen alojada en un directorio de Nodepop. Sin embargo, la imagen es servida por NGINX y la cabecera ha sido modificada para mostrar mi cuenta de GitHub.
+
+4. <https://chat.perfectstrange.com>  
+Adicionalmente, y a modo de práctica, también se ha desplegado en el mismo servidor la aplicación de NodeChat utilizada durante el curso.
+
+En todos los casos, los dominios han sido securizados utilizando certificados SSL.
+
+
+
 	
 	
